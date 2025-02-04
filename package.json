@@ -63,6 +63,7 @@
   },
   "scripts": {
     "start": "cds-serve",
+    "test": "jest test/test.js",
     "watch-incidents": "cds watch --open incidents/webapp/index.html?sap-ui-xx-viewCache=false"
   },
   "sapux": [
